@@ -9,7 +9,15 @@
             stack.Push(30);
             stack.Push(56);
             Console.WriteLine("Elements Pushed!!");
+
+            Console.WriteLine("Top element is: {0}",stack.Peek());
+            stack.Pop();
+            Console.WriteLine("Top element is: {0}", stack.Peek());
+            stack.Pop();
+            Console.WriteLine("Top element is: {0}", stack.Peek());
+            stack.Pop();
             
+
 
 
         }
