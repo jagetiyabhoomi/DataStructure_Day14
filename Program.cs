@@ -4,20 +4,12 @@
     {
         public static void Main(string[] args)
         {
-           Stack<int> stack = new Stack<int>();
-            stack.Push(70);
-            stack.Push(30);
-            stack.Push(56);
-            Console.WriteLine("Elements Pushed!!");
-
-            Console.WriteLine("Top element is: {0}",stack.Peek());
-            stack.Pop();
-            Console.WriteLine("Top element is: {0}", stack.Peek());
-            stack.Pop();
-            Console.WriteLine("Top element is: {0}", stack.Peek());
-            stack.Pop();
-            
-
+           
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            Console.WriteLine("element added!!");
 
 
         }
